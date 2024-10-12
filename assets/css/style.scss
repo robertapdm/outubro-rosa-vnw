@@ -16,21 +16,20 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 50px 140px 50px 200px;
-}
-.logo{
+    .logo{
     width: 25vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-h1{
+    h1{
     font-size: 2.8rem;
+}
 }
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
-}
 ul{
     display: flex;
     justify-content: space-around;
@@ -45,6 +44,7 @@ li{
     align-items: center;
     font-size: 2.8rem;
     font-weight: 900;
+}
 }
 a:link{
     color:#E4EEF1;
@@ -63,14 +63,14 @@ a:visited{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-.hero-title{
+    .hero-title{
     width: 38%;
     font-size: 2.5rem;
     font-weight: 400;
 }
-.heroImg{
+    .heroImg{
     width: 20%;
+}
 }
 /* Section 2 */
 .section2{
@@ -81,14 +81,14 @@ background-color: #FF69B4;
     justify-content: space-evenly;
     align-items: center;
     padding: 90px;
-}
-.section2-title{
+    .section2-title{
     width: 44%;
     font-size: 2.5rem;
     font-weight: 400;
 }
-.section2Img{
+    .section2Img{
     width: 30%;
+}
 }
 /* Section 3 - Info */
 .info{
@@ -98,6 +98,9 @@ background-color: #FF69B4;
     justify-content: space-evenly;
     align-items: center;
     padding: 90px;
+    .info-img{
+        width: 15vw;
+    }
 }
 /* Footer */
 footer{
@@ -107,114 +110,120 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.footer{
+    .footer{
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.icons{
+    .icons{
     width: 20%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.icon{
+    .icon{
     width: 80%;
+}
 }
 .info-footer{
     font-size: 1.5rem;
     text-align: center;
     line-height: 2.5rem;
+    .symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.copyright{
-    display: none;
 }
+.icon-rosa{
+    width: 6vw;
+}
+
 /* Responsivo */
 @media screen and (min-width:300px)and (max-width:500px) {
 /* Header */
 header{
-    height: 15vh;
+    height: 20vh;
     padding: 0 20px;
-}
-.logo{
+    .logo{
     width: 100vw;
     justify-content: space-around;
 }
-.img-logo{
-    width: 18vw;
+    .img-logo{
+    width: 15vw;
 }
-h1{
+    h1{
     padding: 20px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
-ul{
+}
+nav{
+
+    ul{
     display: none;
+}
 }
 /* Main */
 /* Hero Section */
 .hero{
+    height: 60vh;
     flex-direction: column;
     justify-content: space-around;
-}
-.hero-title{
+    .hero-title{
     width: 85%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
 }
-.heroImg{
-    width: 45%;
+    .heroImg{
+    width: 30%;
+}
 }
 /* Section 2 */
 .section2{
-flex-direction: column;
-padding: 0;
-}
-.section2-title{
+    height: 50vh;
+    flex-direction: column;
+    padding: 0;
+    .section2-title{
     width: 85%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
 }
-.section2Img{
-    width: 45%;
+    .section2Img{
+    width: 35%;
+}
 }
 /* Section 3 - Info */
 .info{
-    height: 50vh;
-    flex-wrap: wrap;
+    height: 30vh;
     padding: 0;
-}
-.info-img{
-    width: 35%;
+    .info-img{
+        width: 20vw;
+    }
 }
 /* Footer */
 footer{
-    height: 50vh;
-}
-.footer{
-    height: 50vh;
+    height: 70vh;
+    padding: 0;
+    .footer{
+    width: 70vw;
+    height: 80vh;
     flex-direction: column-reverse;
 }
-.icons{
-    width: 30%;
+    .icons{
+    width: 40%;
 }
-.icon{
+    .icon{
     width: 70%;
+}
 }
 .info-footer{
-    width: 50%;
-    font-size: 1.3rem;
+    width: 70%;
+    font-size: 1.1rem;
     text-align: center;
+    line-height: 2rem;
 }
 .icon-rosa{
-    width: 70%;
-}
-.copyright{
-    display: initial;
-    width: 50%;
-    font-size: 1.3rem;
-    text-align: center;
-    margin-bottom: 35px;
+    width: 10vw;
 }
 }
